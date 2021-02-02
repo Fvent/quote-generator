@@ -21,7 +21,7 @@ export class QuoteBox extends React.Component{
             
             <p id="text">{this.props.quotes[this.state.index].text}</p>
             <h5 id="author">-{this.props.quotes[this.state.index].author}</h5>
-            <button id="new-quote" onClick={this.handleNewQuote}>Another One</button>
+            <button id="new-quote" onClick={this.handleNewQuote}><strong>Another One</strong></button>
 
             <a id="tweet-quote" href="twitter.com/intent/tweet">Tweet this Quote</a>
         </div>);
